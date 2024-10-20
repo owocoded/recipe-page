@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --white: hsl(0, 0%, 100%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+body {
+  background-color: var(--Stone-100);
+  place-content: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+ul, ol{
+    padding-left: 1rem;
+}
+h4{
+    color: black;
+}
+h3{
+    color: var(--brown-800);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+h1{
+  margin-bottom: 0.5rem;  
+}
+li{
+    color: var(--brown-800);
+    font-weight: bold;
+}
+span{
+    color: black;
+    font-weight: normal;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 1rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+td{
+    border-bottom: 1px solid var(--brown-800);
+    padding: 5px 20px;
+}
+.gram{
+    color: var(--brown-800);
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}
+.container {
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 50%;
+  padding: 1.5rem;
+}
+.mid-container{
+    background-color: var(--rose-50);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.mid-container h3{
+    color: var(--rose-800);
+}
+.instructions{
+    border-bottom: 1px solid var(--brown-800);
+    padding-bottom: 10px;
+}
